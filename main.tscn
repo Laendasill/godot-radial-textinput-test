@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://cin456l0p3wi1"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_h2kx8"]
+
+[node name="main" type="Node2D"]
+script = ExtResource("1_h2kx8")
+
+[node name="CurrentAngle" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="InputText" type="Label" parent="."]
+offset_right = 112.0
+offset_bottom = 192.0
+text = "Input text: \" \""
+horizontal_alignment = 1
+vertical_alignment = 2
